@@ -116,7 +116,7 @@ export default function Bingo() {
         })
 
         const completedCount = updatedLines.filter(l => l.completed).length
-        const newBingos = completedCount - bingoCount
+        // const newBingos = completedCount - bingoCount
 
         // Update local state
         setBoard(updatedBoard)
